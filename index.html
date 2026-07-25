@@ -6,7 +6,7 @@
     <title>Earth Evo</title>
     <meta
       name="description"
-      content="Earth Evo is a personal website showcasing creativity, ideas, and work."
+      content="Earth Evo is a visual timeline of Earth's evolution from formation to the modern era."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,57 +17,309 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <nav class="nav">
-        <a href="#home" class="brand">Earth Evo</a>
-        <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
-
-      <section id="home" class="hero-content">
-        <p class="eyebrow">Personal website</p>
-        <h1>Designing a more thoughtful digital presence.</h1>
-        <p class="intro">
-          I’m building a space to share ideas, projects, and the story behind the work.
-        </p>
-        <a class="button" href="#contact">Get in touch</a>
-      </section>
-    </header>
-
-    <main>
-      <section id="about" class="section">
-        <h2>About</h2>
-        <p>
-          Earth Evo is the start of a personal online home for thoughtful work, creative
-          exploration, and meaningful connection.
-        </p>
-      </section>
-
-      <section id="projects" class="section alt">
-        <h2>Projects</h2>
-        <div class="card-grid">
-          <article class="card">
-            <h3>Launch ideas</h3>
-            <p>Share concepts, stories, and experiments as they evolve.</p>
-          </article>
-          <article class="card">
-            <h3>Build a portfolio</h3>
-            <p>Highlight your best work with a clear and elegant layout.</p>
-          </article>
-          <article class="card">
-            <h3>Grow your audience</h3>
-            <p>Create a lasting home for your voice online.</p>
-          </article>
+    <main class="page">
+      <section class="intro-page">
+        <div class="intro-panel">
+          <p class="eyebrow">Earth Evo</p>
+          <h1>The story of Earth in motion</h1>
+          <p class="intro-copy">
+            This site introduces Earth’s transformation from its fiery beginning to the age of humans. It offers a slow, immersive journey through key stages of our planet’s evolution and the forces that made it what it is today.
+          </p>
+          <a class="button" href="#timeline">Dive Deep</a>
         </div>
       </section>
 
-      <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Reach out to start a conversation, share an idea, or collaborate.</p>
+      <section id="timeline" class="timeline-section">
+        <div class="timeline-header">
+          <h2>Earth's History Timeline</h2>
+          <p>Experience a long-form animated slideshow that moves through Earth's major stages, from planetary formation to the modern world.</p>
+        </div>
+
+        <div class="slideshow" aria-label="Interactive Earth history slideshow">
+          <div class="slide-track">
+            <article class="slide">
+              <div class="slide-art art-formation" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">01</span>
+                <h3>Solar Nebula</h3>
+                <p>A giant cloud of gas and dust collapsed under gravity after a nearby star exploded. The spinning disk at its center became the Sun, while material farther out began to merge into planets.</p>
+                <p>This stage set the stage for Earth’s birth, as dust particles stuck together and formed larger and larger bodies in the young solar system.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-formation" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">02</span>
+                <h3>Planet Accretion</h3>
+                <p>Earth grew when planetesimals collided and stuck together. Each impact added mass and heat, turning the young planet into a molten world with a dense iron core and a rocky mantle.</p>
+                <p>The earliest surface was a glowing ocean of magma, with constant volcanic activity reshaping the planet.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-impact" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">03</span>
+                <h3>Moon-Forming Impact</h3>
+                <p>A massive collision with a Mars-sized body blasted debris into orbit around Earth. That debris coalesced into the Moon and changed Earth’s tilt, rotation speed, and future climate.</p>
+                <p>This dramatic event also stripped away volatile material and helped set the stage for a calmer, stable planet.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-cooling" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">04</span>
+                <h3>Crust Formation</h3>
+                <p>As Earth cooled, the first solid crust formed above the molten mantle. Floating volcanic islands rose, while frequent meteor strikes continued to reshape the surface.</p>
+                <p>The crust was thin and unstable, but it marked the first step toward continents and solid ground.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-oceans" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">05</span>
+                <h3>Ocean Birth</h3>
+                <p>Water vapor from volcanic outgassing condensed into rain and filled low-lying basins. The first oceans formed, providing a deep, stable environment for chemistry to proceed.</p>
+                <p>Oceans also helped moderate the climate and transported minerals across the planet.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-organics" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">06</span>
+                <h3>Organic Chemistry</h3>
+                <p>Underwater vents, lightning, and sunlight sparked the first complex organic molecules. Amino acids, sugars, and other building blocks collected in pools and began forming more complex chemistry.</p>
+                <p>This prebiotic world was a laboratory for the molecules that would eventually become life.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-bacteria" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">07</span>
+                <h3>First Cells</h3>
+                <p>The earliest life forms were tiny cells with simple membranes and genetic material. They absorbed nutrients from the ocean and reproduced by splitting.</p>
+                <p>These first bacteria began changing the chemistry of the water and the air around them.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-stromatolites" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">08</span>
+                <h3>Stromatolites</h3>
+                <p>Microbial mats built layered structures in shallow water. These stromatolites are among the oldest fossils on Earth and show how life began to shape its own environment.</p>
+                <p>They captured sunlight and minerals, leaving behind fossil evidence of early microbial communities.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-oxygen" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">09</span>
+                <h3>Oxygen Production</h3>
+                <p>Photosynthesizing microbes released oxygen as a waste product. At first, oxygen reacted with iron and other minerals, but eventually it began to accumulate in the atmosphere.</p>
+                <p>This marked the beginning of a more oxygen-rich world that could support larger and more complex life.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-great-oxidation" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">10</span>
+                <h3>Great Oxidation Event</h3>
+                <p>The atmosphere shifted dramatically as oxygen levels rose. Many earlier organisms struggled, but new forms of life evolved that relied on oxygen and released more of it.</p>
+                <p>This was one of Earth’s greatest environmental transformations.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-eukaryotes" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">11</span>
+                <h3>Eukaryotic Cells</h3>
+                <p>Larger, more complex cells with internal structures like nuclei evolved. These eukaryotes could build bigger bodies and coordinate more advanced functions.</p>
+                <p>They are the ancestors of plants, animals, fungi, and many protists.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-glaciation" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">12</span>
+                <h3>Snowball Earth</h3>
+                <p>At least two global ice ages covered the planet in ice. These extreme cold periods changed ocean chemistry and set the stage for later bursts of evolution.</p>
+                <p>When the ice melted, the return of warmth helped life radiate into new forms.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-cambrian" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">13</span>
+                <h3>Cambrian Explosion</h3>
+                <p>Life diversified suddenly in the oceans, producing many new species with hard parts, eyes, and complex body plans.</p>
+                <p>This era produced the ancestors of many modern animal groups.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-plants" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">14</span>
+                <h3>Plants on Land</h3>
+                <p>Green plants began colonizing rivers and lakes, holding soil in place and releasing oxygen into a more stable atmosphere.</p>
+                <p>These pioneering plants transformed barren land into habitable environments for later animals.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-forests" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">15</span>
+                <h3>Forest Expansion</h3>
+                <p>Forests spread across the continents, creating vast carbon-rich swamps that would later become coal deposits.</p>
+                <p>These rich ecosystems supported insects, amphibians, and early reptiles.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-amphibians" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">16</span>
+                <h3>Amphibians and Reptiles</h3>
+                <p>Amphibians were the first vertebrates to move onto land, followed by reptiles that could lay eggs away from water.</p>
+                <p>This evolution of terrestrial life allowed vertebrates to spread into new niches.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-dinosaurs" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">17</span>
+                <h3>Dinosaurs Rule</h3>
+                <p>Giant reptiles became the dominant land animals, filling roles from swift hunters to massive plant-eaters.</p>
+                <p>This long era saw dramatic climate shifts and the rearrangement of continents.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-impact" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">18</span>
+                <h3>Great Extinction</h3>
+                <p>An asteroid impact and volcanic activity triggered a mass extinction, ending the dinosaurs and many other species suddenly.</p>
+                <p>In the aftermath, new groups of animals had room to evolve and diversify.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-mammals" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">19</span>
+                <h3>Mammal Expansion</h3>
+                <p>Mammals evolved into a wide range of shapes and sizes, exploiting forests, grasslands, lakes, and even the oceans.</p>
+                <p>The first large mammals, primates, and eventual ancestors of humans appeared during this time.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-hominins" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">20</span>
+                <h3>Hominins Walk</h3>
+                <p>Early humans learned to walk upright, make tools, control fire, and live in social groups across African savannas.</p>
+                <p>These changes helped humans expand into Asia, Europe, and beyond.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-agriculture" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">21</span>
+                <h3>Farming Revolution</h3>
+                <p>People began planting crops and domesticating animals, which supported larger communities and led to the first cities.</p>
+                <p>Permanent settlements changed the landscape and created the conditions for writing and technology.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-civilizations" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">22</span>
+                <h3>Early Civilizations</h3>
+                <p>Rivers such as the Nile, Tigris, and Yellow River hosted early empires, where trade, law, and culture grew rapidly.</p>
+                <p>Architecture, astronomy, and long-distance trade began shaping a world connected by ideas and goods.</p>
+              </div>
+            </article>
+
+            <article class="slide">
+              <div class="slide-art art-modern" aria-hidden="true"></div>
+              <div class="slide-copy">
+                <span class="slide-label">23</span>
+                <h3>Modern Age</h3>
+                <p>Industrialization, electricity, and digital networks transformed how humans live, work, and exchange information.</p>
+                <p>Our planet now faces new challenges of climate, biodiversity, and sustainability as we enter the Anthropocene.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="slide-controls">
+            <button id="prevSlide" class="control-button" type="button">Previous</button>
+            <div class="slide-dots" aria-label="Slide navigation"></div>
+            <button id="nextSlide" class="control-button" type="button">Next</button>
+          </div>
+        </div>
       </section>
     </main>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const track = document.querySelector('.slide-track');
+        const slides = Array.from(document.querySelectorAll('.slide'));
+        const prevButton = document.getElementById('prevSlide');
+        const nextButton = document.getElementById('nextSlide');
+        const dotsContainer = document.querySelector('.slide-dots');
+        let currentIndex = 0;
+
+        function updateSlidePosition() {
+          const offset = currentIndex * -100;
+          track.style.transform = `translateX(${offset}%)`;
+          document.querySelectorAll('.slide-dot').forEach((dot, idx) => {
+            dot.classList.toggle('active', idx === currentIndex);
+          });
+        }
+
+        function createDots() {
+          slides.forEach((_, idx) => {
+            const dot = document.createElement('button');
+            dot.type = 'button';
+            dot.className = 'slide-dot';
+            dot.setAttribute('aria-label', `Go to slide ${idx + 1}`);
+            dot.addEventListener('click', function () {
+              currentIndex = idx;
+              updateSlidePosition();
+            });
+            dotsContainer.appendChild(dot);
+          });
+        }
+
+        prevButton.addEventListener('click', function () {
+          currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+          updateSlidePosition();
+        });
+
+        nextButton.addEventListener('click', function () {
+          currentIndex = (currentIndex + 1) % slides.length;
+          updateSlidePosition();
+        });
+
+        createDots();
+        updateSlidePosition();
+      });
+    </script>
   </body>
 </html>
