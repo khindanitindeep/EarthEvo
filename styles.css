@@ -97,7 +97,7 @@ body::after {
   letter-spacing: 0.35em;
   color: var(--accent);
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   margin-bottom: 1.5rem;
 }
 
