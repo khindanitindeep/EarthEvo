@@ -20,5 +20,6 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          prod: true
-          vercel-args: --yes
+          vercel-project-name: earth-evo
+          vercel-args: --prod --yes
+          alias-domains: earth-evo.vercel.app
